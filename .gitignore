@@ -1,0 +1,81 @@
+
+---
+
+## Contenido del .gitignore
+
+Copia y pega el siguiente contenido en tu archivo `.gitignore` para evitar incluir archivos o carpetas que no deben estar en el repositorio:
+
+```gitignore
+# .gitignore
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de extensión C
+*.so
+
+# Entornos virtuales
+venv/
+time_series_env/
+env/
+*.env
+
+# Puntos de control de Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribución y empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Logs de instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Informes de testeo y cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Archivos de traducción
+*.mo
+*.pot
+
+# Archivos de Django y Flask (en caso de usarlos en el futuro)
+*.log
+local_settings.py
+instance/
+.webassets-cache
+
+# Otros
+.scrapy
+docs/_build/
+target/
+.mypy_cache/
+.pyre/
